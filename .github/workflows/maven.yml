@@ -23,7 +23,7 @@ jobs:
     - name: Build with Maven
       run: mvn -B package
 
-    multi-jdk:
+  multi-jdk:
 
       runs-on: ubuntu-latest
 
